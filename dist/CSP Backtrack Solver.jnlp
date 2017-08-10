@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CSP Backtrack Solver.jnlp">
+  <information>
+    <title>CSP Backtrack Solver</title>
+    <vendor>arman</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib/commons-io-2.5.jar" size="208696" download="eager" />
+    <jar href="lib/commons-lang3-3.4.jar" size="434678" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="CSP Backtrack Solver" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="JavaFXUI.Main"  name="CSP Backtrack Solver" />
+  <update check="always"/>
+</jnlp>
